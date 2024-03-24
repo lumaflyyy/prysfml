@@ -18,6 +18,7 @@ int main()
 	const float dx = 0.1;
 	const float dy = 0.1;
 	//textura y sprite cargadas desde player.
+	aaa
 
 	String p_texture =
 		"C:/Users/Valentin/Desktop/dev/prysfml/prysfml/images/particle.png";
