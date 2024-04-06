@@ -31,7 +31,7 @@ int main()
 	//la imagen, texture
 	Texture particle;
 	particle.loadFromFile(e_texture);
-
+	asd
 	//lo que puedo hacer con la imagen, transformaciones etc: sprite.
 	Sprite sparticle(particle);
 	Vector2f particlePos(580, 580);
