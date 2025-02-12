@@ -12,6 +12,7 @@ private:
 	Texture* texture;
 	Sprite sP;
 	Vector2f position;
+	
 public:
 	unsigned int getHealth();
 	void incHealth(int hp); 
@@ -25,7 +26,6 @@ public:
 	bool isDead();
 	void fixborder();
 	Sprite getSprite();
-
 	player(unsigned int hp, unsigned int ar, float x, float y, string fileimage);
 	~player();
 };

@@ -19,7 +19,6 @@ int main()
 	const float dy = 0.1;
 	//textura y sprite cargadas desde player.
 	
-
 	String p_texture =
 		"C:/Users/Valentin/Desktop/dev/prysfml/prysfml/images/particle.png";
 	player* p = new player(100, 50, 1, 1, p_texture);
@@ -64,7 +63,7 @@ int main()
 		p2->fixborder();
 		
 		//box particle movement
-
+		
 		if (Keyboard::isKeyPressed(Keyboard::W)) p->move(0, -dy);
 		if (Keyboard::isKeyPressed(Keyboard::A)) p->move(-dx, 0);
 		if (Keyboard::isKeyPressed(Keyboard::S)) p->move(0, dy);

@@ -40,6 +40,7 @@ void player::fixborder() {
 Sprite player::getSprite() {
 	return sP;
 }
+
 player::player(unsigned int hp, unsigned int ar, float x, float y, string fileimage) {
 	//SFML: the sprite doesn't store its own copy of the texture, 
 	//but rather keeps a pointer to the one that you passed to this function
@@ -54,7 +55,6 @@ player::player(unsigned int hp, unsigned int ar, float x, float y, string fileim
 	sP.setPosition(getPos());
 	sP.setScale(0.5, 0.5);
 }
-
 player::~player() {
 	delete texture;
 	texture = nullptr;
